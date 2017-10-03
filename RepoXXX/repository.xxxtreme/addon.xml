@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xxxtreme" name="XXXtreme Repository" version="1.2" provider-name="MartyMan">
+	<extension point="xbmc.addon.repository" name="XXXtreme Repository">
+		<info compressed="false">http://xxxtremerepos.com/Zips/addons.xml</info>
+		<checksum>http://xxxtremerepos.com/Zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://xxxtremerepos.com/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>The add-on within this repository contains explicit adult material, DO NOT install if you are younger than 18 years of age. **18+ ONLY**</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

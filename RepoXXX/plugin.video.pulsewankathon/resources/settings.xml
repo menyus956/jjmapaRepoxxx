@@ -1,0 +1,3 @@
+<settings>
+        <setting id="ask" type="bool" label="ask" default="false" visible="false"/>
+</settings>

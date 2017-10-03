@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category id="general" label="General">
+		<setting id="userlist" type="text" label="Code" default=""/>
+	</category>
+		
+		
+	<category id="general" label="Restore">
+		<setting id="remote_backup" type="folder" label="Backup Folder" visible="True" />
+		<setting id="remote_restore" type="file" label="Restore Zip" visible="true" />
+	</category>
+</settings>
