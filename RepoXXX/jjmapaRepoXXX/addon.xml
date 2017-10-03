@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="jjmapaRepo" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0" provider-name="JJMAPA">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/</datadir>
+<addon id="jjmapaRepoXXX" name="[COLOR lime]JJMAPA Repositorio[/COLOR] XXX" version="1.0" provider-name="JJMAPA">
+    <extension point="xbmc.addon.repository" name="JJMAPA Repositorio">
+        <info>https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mis Addons</summary>
+        <summary>Repositorio para Mis Addons XXX</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>

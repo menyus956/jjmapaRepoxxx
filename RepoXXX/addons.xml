@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="jjmapa.wizard.1.2"
-	   name="JJMAPA WIZARD"
-	   version="1.2"
-	   provider-name="JJMAPA">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/</datadir>
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wizard</summary>
-    <description>Instalador inteligente que ayuda a configurar tu Kodi correctamente</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="jjmapaRepo" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0" provider-name="JJMAPA">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jjmapa/jjmapaRepo/master/Repositorio/</datadir>
+<addon id="jjmapaRepoXXX" name="[COLOR lime]JJMAPA Repositorio[/COLOR] XXX" version="1.0" provider-name="JJMAPA">
+    <extension point="xbmc.addon.repository" name="JJMAPA Repositorio">
+        <info>https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jjmapa/jjmapaRepoxxx/master/RepoXXX/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mis Addons</summary>
+        <summary>Repositorio para Mis Addons XXX</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
