@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.XXXtreme" name="XXXtreme 18+ ONLY" version="1.0.7" provider-name="MartyMan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Best HD XXX Addon</summary>
+    <description lang="en">HD XXX Addon By MartyMan</description>
+    <disclaimer lang="en">This add-on contains explicit adult material, DO NOT install if you are younger than 18 years of age. **18+ ONLY**</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>https://www.facebook.com/XXXtreme-Kodi-1228647213840091/</website>
+    <email>martyman@xxxtremerepos.com / @MartyManKodi</email>
+  </extension>
+</addon>

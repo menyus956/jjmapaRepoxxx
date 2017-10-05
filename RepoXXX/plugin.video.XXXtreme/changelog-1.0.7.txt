@@ -1,0 +1,16 @@
+v1.0.0
+- Initial version
+
+v1.0.1- 5000 vids
+
+v1.0.2- 8000 vids
+
+v1.0.3- 9000 vids
+        New HD thumbnails added
+        New icon added
+
+v1.0.4- 10'000+ vids
+        Donate link added (XXXtreme is and always will be 100% FREE!! Donate only if you wish, nothing bad will happen if         you don't, it will help towards hosting costs for the addon. Thank you!!)
+		
+v1.0.5- All categories now with 99+ videos.
+        New categories added.
