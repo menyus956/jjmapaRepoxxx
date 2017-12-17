@@ -470,6 +470,49 @@ adulthideout@yandex.com[/COLOR]
     </extension>
 </addon>
 
+
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="4.0.15" provider-name="UKTurk">
+
+  <requires>
+
+    <import addon="script.module.simplejson" version="3.3.0"/>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+    <import addon="script.video.F4mProxy" version="2.5.3"/>
+
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
+
+    <description lang="en">Free Playlists courtesy of @uk_turk</description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
        version="1.1.55"
@@ -524,6 +567,27 @@ Removed: Nudeflix</news>
   </extension>
 </addon>
 
+<addon id="plugin.video.Vortex"
+       name="[COLOR red]Vortex[/COLOR]"
+       version="2.1.1"
+       provider-name="Rockcrusher">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.12.4"/>
+	<import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+			<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Music and Video</summary>
+    <description lang="en">Music and Video Playlists.</description>
+    <language>en</language>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.wet4u"
        name="Wet4U"
        version="1.0.2"
@@ -572,6 +636,26 @@ Removed: Nudeflix</news>
     <description>Adult(18+) videos from wildfireporn.com</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.5" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Wood Rocket</summary>
+		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
+        <news>Wood Rocket v0.4 (19th February 2017
+         - Resolved playback issues
+         - Added Newest Parodies and Newest Shows to menu</news>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+        <news>
+        v0.5 26/05/2017
+        - Fixed issues after website got updated
+        </news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.xxx-o-dus"
@@ -647,5 +731,33 @@ Removed: Nudeflix</news>
         <summary lang="en">YouJizz.com</summary>
         <description lang="en">****ADULT CONTENT***** Watch erotic and sexy videos from YouJizz.com</description>
     </extension>
+</addon>
+
+<addon id="plugin.video.youporn"
+	     name="YouPorn"
+	     version="3.00.001"
+	     provider-name="Echo Coder">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.urlresolver.xxx"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">OVER 18 ONLY - Support is available https://github.com/Colossal1/plugin.video.youporn/issues</summary>
+    <description lang="en">YouPorn Scraping by Echo Coder
+
+Skin and code for skin by Demonstratorz</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://github.com/Colossal1/plugin.video.youporn</forum>
+    <website>https://github.com/Colossal1/plugin.video.youporn</website>
+    <email>echocoderxbmc@protonmail.com</email>
+  </extension>
 </addon>
 </addons>
